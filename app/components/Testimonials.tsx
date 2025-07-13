@@ -171,7 +171,7 @@ export default function Testimonials() {
                     <h3 className="text-lg font-semibold text-white">{testimonial.name}</h3>
                     <p className="text-sm text-gray-400">{testimonial.role} at {testimonial.company}</p>
                   </div>
-                  <p className="text-gray-300 italic">"{testimonial.content}"</p>
+                  <p className="text-gray-300 italic">&quot;{testimonial.content}&quot;</p>
                 </div>
               </motion.div>
             ))}
