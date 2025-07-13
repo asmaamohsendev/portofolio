@@ -3,7 +3,6 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { useEffect, useState, useMemo } from 'react'
 import { FaGithub, FaLinkedin} from 'react-icons/fa'
-import { FaXTwitter } from "react-icons/fa6";
 
 // Particles component (simplified version)
 const Particles = ({ particleCount = 50 }) => {
@@ -125,7 +124,6 @@ const FloatingCodeBlock = ({ code, language, delay = 0, position }: FloatingCode
 
 export default function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
-  const [isHovered, setIsHovered] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
   const shouldReduceMotion = useReducedMotion()
 
@@ -335,7 +333,7 @@ export default function Hero() {
           className="max-w-xl mb-12"
         >
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 italic font-space-grotesk mb-4">
-            "Crafting digital experiences through clean code and creative design"
+            &quot;Crafting digital experiences through clean code and creative design&quot;
           </p>
           <p className="text-base sm:text-lg text-gray-400 font-space-grotesk">
             Full-stack developer with 3+ years of experience, specializing in building exceptional digital experiences. 
