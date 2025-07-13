@@ -125,6 +125,7 @@ const FloatingCodeBlock = ({ code, language, delay = 0, position }: FloatingCode
 export default function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isMobile, setIsMobile] = useState(false)
+  const [isHovered, setIsHovered] = useState(false)
   const shouldReduceMotion = useReducedMotion()
 
   useEffect(() => {
