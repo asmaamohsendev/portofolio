@@ -1,17 +1,5 @@
 import Particles from './Particles'
 
-// Define skills data
-const skills = [
-  { name: 'React', level: 90, category: 'frontend' },
-  { name: 'TypeScript', level: 85, category: 'frontend' },
-  { name: 'Node.js', level: 88, category: 'backend' },
-  { name: 'Next.js', level: 92, category: 'frontend' },
-  { name: 'MongoDB', level: 85, category: 'backend' },
-  { name: 'Git', level: 90, category: 'tools' },
-  { name: 'Tailwind CSS', level: 95, category: 'frontend' },
-  { name: 'PostgreSQL', level: 85, category: 'backend' }
-]
-
 export default function About() {
   return (
     <section className="min-h-screen flex items-start justify-start bg-black text-white p-8 md:p-16 relative overflow-hidden">
@@ -55,10 +43,10 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
             <div>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-300 italic font-space-grotesk mb-4 sm:mb-6">
-                "Passionate about creating digital experiences that make a difference"
+                &quot;Passionate about creating digital experiences that make a difference&quot;
               </p>
               <p className="text-base sm:text-lg text-gray-400 font-space-grotesk mb-4 sm:mb-6">
-                I'm a full-stack developer with over 3 years of experience in creating 
+                I&ldquo;m a full-stack developer with over 3 years of experience in creating 
                 modern web applications. My journey in tech has been driven by a constant desire 
                 to learn and build things that make a difference.
               </p>
