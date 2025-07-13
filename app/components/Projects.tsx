@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import Particles from "./Particles";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 type Project = {
   title: string;
@@ -24,7 +24,6 @@ const projects: Project[] = [
     image: "/saf.png",
     category: "web",
     liveUrl: "https://saf-firm.sa",
-    githubUrl: "https://github.com/thyrexdev/saf",
   },
   {
     title: "Chill Time",
@@ -34,7 +33,6 @@ const projects: Project[] = [
     image: "/chill-time.png",
     category: "web",
     liveUrl: "https://chill-time-egy.vercel.app/",
-    githubUrl: "https://github.com/thyrexdev/chill-time",
   },
   {
     title: "To do list",
@@ -44,7 +42,6 @@ const projects: Project[] = [
     image: "/to-do-list.png",
     category: "web",
     liveUrl: "https://to-do-list-gray-nu-10.vercel.app/",
-    githubUrl: "https://github.com/thyrexdev/to-do-list",
   },
 ];
 
@@ -188,17 +185,6 @@ export default function Projects() {
 
                   {/* Project Links */}
                   <div className="flex gap-4">
-                    <motion.a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      <FaGithub className="w-4 h-4" />
-                      <span>Code</span>
-                    </motion.a>
                     <motion.a
                       href={project.liveUrl}
                       target="_blank"
