@@ -11,7 +11,6 @@ type Project = {
   image: string;
   category: "web" | "mobile" | "fullstack";
   technologies: string[];
-  githubUrl: string;
   liveUrl: string;
 };
 
