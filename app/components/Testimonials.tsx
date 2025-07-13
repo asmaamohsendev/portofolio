@@ -118,10 +118,10 @@ export default function Testimonials() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <p className="text-xl md:text-2xl text-gray-300 italic font-space-grotesk mb-6">
-                "Feedback from clients and colleagues"
+                &quot;Feedback from clients and colleagues&quot;
               </p>
               <p className="text-gray-400 font-space-grotesk mb-6">
-                Here's what people I've worked with have to say about our collaboration. 
+                Here&ldquo;s what people I&ldquo;ve worked with have to say about our collaboration. 
                 Each testimonial represents a unique project and partnership.
               </p>
               <p className="text-gray-400 font-space-grotesk">
