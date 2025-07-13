@@ -141,10 +141,10 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <p className="text-xl md:text-2xl text-gray-300 italic font-space-grotesk mb-6">
-                "Let's create something amazing together"
+                &quot;Let&ldquo;s create something amazing together&quot;
               </p>
               <p className="text-gray-400 font-space-grotesk mb-6">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                I&ldquo;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
               </p>
               <p className="text-gray-400 font-space-grotesk">
                 Feel free to reach out through any of the following channels.
