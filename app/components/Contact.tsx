@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 
 interface ContactMethod {
   name: string
-  icon: any
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>
   url: string
   label: string
 }
