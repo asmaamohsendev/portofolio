@@ -353,8 +353,6 @@ export default function Hero() {
               className="group px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 transition-all duration-300 shadow-lg hover:shadow-xl relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-white/20 w-full sm:w-auto"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onHoverStart={() => setIsHovered(true)}
-              onHoverEnd={() => setIsHovered(false)}
               aria-label="View my portfolio work"
             >
               <span className="relative z-10">View My Work ↓</span>
