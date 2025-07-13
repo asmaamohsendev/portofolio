@@ -51,7 +51,6 @@ const projects: Project[] = [
 export default function Projects() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isMobile, setIsMobile] = useState(false);
-  const [activeCategory, setActiveCategory] = useState<string>("all");
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
